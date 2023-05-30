@@ -1,0 +1,92 @@
+*{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+body{
+    background-image:url("./assets/1600w-kyL4zdu4OLM.webp") ;
+}
+.logo{
+    width: 5%;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+img{
+    border-radius: 20px;
+}
+main{
+    background-color: #93b5e0;
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    padding: 40px;
+}
+.text-area{
+    background-color: #93b5e0;
+    border: none;
+    color: #0a3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+::placeholder{
+    color: #0a3871;
+}
+.text-area:focus{
+    outline:none;
+}
+.message{
+    background: white;
+    background-image: url("./assets/Muñeco.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    padding-left: 20px;
+    position: fixed;
+    height: 60%;
+}
+.message:focus{
+    outline: none;
+}
+.buttons{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-encript{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+.btn-decript{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+.btn-copy{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    bottom: 30%;
+    width: 336px;
+}
+.information{
+    color: #495057;
+    font-size: 18px;
+}
